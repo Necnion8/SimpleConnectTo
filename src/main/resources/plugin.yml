@@ -1,0 +1,16 @@
+name: SimpleConnectTo
+version: '${version}'
+main: com.gmail.necnionch.myplugin.simpleconnectto.bukkit.SimpleConnectTo
+api-version: 1.13
+authors: [ Necnion8 ]
+
+commands:
+  connectto:
+    aliases: [server]
+    permission: simpleconnectto.command.connectto
+    usage: "§cUsage: /<command> (server) [player]"
+
+
+permissions:
+  simpleconnectto.command.connectto:
+    default: op
